@@ -208,7 +208,11 @@ class PDFViewer {
                 projectPaths: this.currentProject.paths,
                 getTileUrl: function(level, x, y) {
                     const invertedLevel = this.maxLevel - level;
-                    const tileName = `TN${String(this.participantId).padStart(2, '0')}_${String(this.position).padStart(2, '0')}_level_${invertedLevel}_tile_${x}_${y}.png`;
+                    const participantId = String(this.participantId).padStart(2, '0');
+                    const position = this.position < 10 ? 
+                        String(this.position).padStart(2, '0') : 
+                        String(this.position).padStart(3, '0');
+                    const tileName = `TN${participantId}_${position}_level_${invertedLevel}_tile_${x}_${y}.png`;
                     const tilePath = `${this.projectPaths.outputTiles}/${tileName}`;
                     return getImageUrl(tilePath);
                 },
