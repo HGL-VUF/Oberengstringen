@@ -1,0 +1,17 @@
+{
+  "supabaseUrl": "https://rnjcpableasmvoiedkqr.supabase.co",
+  "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJuamNwYWJsZWFzbXZvaWVka3FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA2ODE0MTYsImV4cCI6MjA1NjI1NzQxNn0.iBYTjPmMxnURRdrUlndyHGqSbipxBKbGf8vbrXAIWfA",
+  "projects": [
+    {
+      "id": "gartenstrasse-9-11-oberengstringen",
+      "name": "gartenstrasse-9-11-oberengstringen",
+      "paths": {
+        "pdfs": "oberengstringen/pdfs",
+        "outputImages": "oberengstringen/output_images",
+        "outputTiles": "oberengstringen/output_tiles",
+        "teamsFile": "oberengstringen/pdfs/teams.json"
+      }
+    }
+  ],
+  "defaultProject": "gartenstrasse-9-11-oberengstringen"
+} 
