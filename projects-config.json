@@ -6,10 +6,10 @@
       "id": "gartenstrasse-9-11-oberengstringen",
       "name": "gartenstrasse-9-11-oberengstringen",
       "paths": {
-        "pdfs": "oberengstringen/pdfs",
-        "outputImages": "oberengstringen/output_images",
-        "outputTiles": "oberengstringen/output_tiles",
-        "teamsFile": "oberengstringen/pdfs/teams.json"
+        "pdfs": "oberengstringen_w1/pdfs",
+        "outputImages": "oberengstringen_w1/output_images",
+        "outputTiles": "oberengstringen_w1/output_tiles",
+        "teamsFile": "oberengstringen_w1/pdfs/teams.json"
       }
     }
   ],
